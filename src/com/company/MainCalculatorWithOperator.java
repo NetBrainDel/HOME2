@@ -5,7 +5,9 @@ public class MainCalculatorWithOperator {
         CalculatorWithOperator z = new CalculatorWithOperator();
 
         double result =z.sum(4.1,z.mul(15,7))+(z.step(z.div(28,5),2));
-        System.out.println(result);//140.45999999999998\\
+        System.out.println(result);       //140.45999999999998\\
+        System.out.println(result / 0);   //Infinity\\
+        System.out.println(result / 0.0d);//Infinity\\
 
     }
 }
