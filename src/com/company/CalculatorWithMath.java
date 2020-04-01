@@ -3,7 +3,7 @@ package com.company;
 import java.math.MathContext;
 import java.lang.Math;
 import java.lang.Object;
-public class CalculatorWithMath {
+public class CalculatorWithMath extends CalculatorWithOperator{
 
         double a = 0;
         double b = 0;
